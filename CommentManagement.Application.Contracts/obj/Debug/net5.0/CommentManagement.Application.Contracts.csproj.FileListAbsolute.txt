@@ -1,0 +1,15 @@
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.deps.json
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\bin\Debug\net5.0\OuroFramework.pdb
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.pdb

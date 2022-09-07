@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountManagement.Application\DiscountManagement.Application.csproj" />
+    <ProjectReference Include="..\DiscountManagement.Infrastructure.EfCore\DiscountManagement.Infrastructure.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

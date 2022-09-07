@@ -1,0 +1,17 @@
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.deps.json
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\ref\DiscountManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\OuroFramework.pdb
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\ref\DiscountManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\VSprj\AspPrj\HomeKala\DiscountManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

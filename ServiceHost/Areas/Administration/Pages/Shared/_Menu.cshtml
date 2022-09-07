@@ -1,0 +1,47 @@
+﻿@inject OuroFramework.Application.IAuthHelper Auth;
+<div id="sidebar-menu">
+    <ul>
+        <li>
+            <a asp-area="Administration" asp-page="/Index" class="waves-effect active"><i class="md md-home"></i><span> داشبورد </span></a>
+        </li>
+        @if (Auth.GetCurrentAccountRole == "1" || Auth.GetCurrentAccountRole == "3")
+        {
+            <li class="has_sub">
+                <a class="waves-effect"><i class="md md-shopping-cart"></i><span> فروشگاه </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                <ul class="list-unstyled">
+                    <li><a asp-page="/Shop/ProductCategories/Index">دسته بندی محصولات</a></li>
+                    <li><a asp-page="/Shop/Products/Index">محصولات</a></li>
+                    <li><a asp-page="/Shop/ProductPictures/Index">تصاویر محصولات</a></li>
+                    <li><a asp-page="/Shop/Slides/Index">اسلایدها</a></li>
+                </ul>
+            </li>
+            <li class="has_sub">
+                <a class="waves-effect"><i class="md md-wallet-giftcard"></i><span> تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                <ul class="list-unstyled">
+                    <li><a asp-page="/Discounts/CustomerDiscount/Index">تخفیف مشتریان</a></li>
+                    <li><a asp-page="/Discounts/ColleagueDiscount/Index">تخفیف همکاری</a></li>
+                </ul>
+            </li>
+        }
+        @if (Auth.GetCurrentAccountRole == "1" || Auth.GetCurrentAccountRole == "4")
+        {
+            <li class="has_sub">
+                <a class="waves-effect"><i class="md md-comment"></i><span> نظرات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                <ul class="list-unstyled">
+                    <li><a asp-page="/Comments/Index">مدیریت نظرات</a></li>
+                </ul>
+            </li>
+            <li class="has_sub">
+                <a class="waves-effect"><i class="md md-person"></i><span> کاربران </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                <ul class="list-unstyled">
+                    <li><a asp-page="/Accounts/Account/Index">مدیریت کاربران</a></li>
+                    <li><a asp-page="/Accounts/Role/Index">مدیریت نقش ها</a></li>
+                </ul>
+            </li>
+        }
+        <li>
+            <a asp-page="/Account" asp-page-handler="Logout" class="waves-effect active"><i class="md fa-sign-out"></i><span> خروج </span></a>
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div>

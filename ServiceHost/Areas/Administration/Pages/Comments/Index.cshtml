@@ -1,0 +1,114 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Comments.IndexModel
+@{
+    ViewData["Title"] = "مدیریت نظرات";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <h3 class="page-title pull-right">'@ViewData["Title"]'</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">جستجو در نظرات</h3>
+            </div>
+            <div class="panel-body">
+                <form class="form-inline" role="form" method="get">
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.Name">جستجو در نظرات</label>
+                        <input class="form-control" asp-for="SearchModel.Name" placeholder="نام">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.Email">جستجو در نظرات</label>
+                        <input class="form-control" asp-for="SearchModel.Email" placeholder="ایمیل">
+                    </div>
+                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="ProductCategoriesDiv">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">لیست نظرات</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="datatable" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>نام</th>
+                                    <th>ایمیل</th>
+                                    <th>وضعیت</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Comments)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Name</td>
+                                        <td>@item.Email</td>
+                                        <td>
+                                            @if (item.IsConfirm)
+                                            {
+                                                <button class="btn btn-icon waves-effect waves-light btn-success m-b-5"> <i class="fa fa-check"> فعال </i> </button>
+                                            }
+                                            else if (!item.IsConfirm)
+                                            {
+                                                <button class="btn btn-icon waves-effect waves-light btn-danger m-3"> <i class="fa fa-remove"> غیرفعال </i> </button>
+                                            }
+                                            else
+                                            {
+                                                <button class="btn btn-icon waves-effect waves-light btn-danger m-3"> <i class="fa fa-eye"> بررسی نشده </i> </button>
+                                            }
+                                        </td>
+                                        <td>@item.CreationTime</td>
+                                        <td>
+                                            @if (item.IsConfirm)
+                                            {
+                                                <a class="btn btn-danger btn-rounded waves-effect waves-light pull-right m-rl-5"
+                                                   asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id">
+                                                    حذف
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <a class="btn btn-success btn-rounded waves-effect waves-light pull-right m-rl-5"
+                                                   asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id">
+                                                    بازگردانی
+                                                </a>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').dataTable();
+        });
+    </script>
+}

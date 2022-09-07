@@ -1,0 +1,12 @@
+E:\VSprj\AspPrj\HomeKala\OuroFramework\bin\Debug\net5.0\OuroFramework.deps.json
+E:\VSprj\AspPrj\HomeKala\OuroFramework\bin\Debug\net5.0\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\OuroFramework\bin\Debug\net5.0\ref\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\OuroFramework\bin\Debug\net5.0\OuroFramework.pdb
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.csproj.AssemblyReference.cache
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.AssemblyInfoInputs.cache
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.AssemblyInfo.cs
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.csproj.CoreCompileInputs.cache
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\ref\OuroFramework.dll
+E:\VSprj\AspPrj\HomeKala\OuroFramework\obj\Debug\net5.0\OuroFramework.pdb
